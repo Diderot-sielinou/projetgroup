@@ -141,7 +141,7 @@ header {
   align-items: center;
   padding: 1.4em;
   margin: auto;
-  width: 75%;
+  width: 90%;
 }
 
 ul {
@@ -180,7 +180,7 @@ body {
 
 .landing-page {
   /* background-color: #9a9999; */
-  width: 75%;
+  width: 90%;
   height: min(100vh);
   margin: auto;
   display: flex;
