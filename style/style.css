@@ -17,7 +17,7 @@
   padding-bottom: 40px;
 }
 
-.text h1 {
+.text h2 {
   font-family: "roboto", serif;
   font-size: 40px;
   font-weight: 700;
@@ -176,6 +176,30 @@ body {
   color: #000;
   font-size: 1rem;
   line-height: 1.4rem;
+  font-family: "Poppins";
+}
+
+.main-heading span {
+  color: #2e2d2d;
+  font-family: "roboto", serif;
+}
+
+.content-wrapper p {
+  padding: 1em 0 1em 0;
+  font-size: 1rem;
+  font-family: "roboto", serif;
+  font-weight: 300;
+  word-spacing: 1px;
+}
+
+.content-wrapper form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  border-radius: 2rem;
+  width: 40vw;
 }
 
 .landing-page {
@@ -192,10 +216,11 @@ body {
   text-align: center;
 }
 
-#search-box {
-  padding: 0.5em;
+#search-box,
+.cta {
+  padding: 0.2em;
   background-color: #fff;
-  border: 1px solid #828181;
+  border: none;
 }
 
 .form-field {
@@ -213,3 +238,5 @@ body {
   color: #fff;
   text-align: center;
 }
+
+/* footer section styling here */
