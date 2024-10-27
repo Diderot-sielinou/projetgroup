@@ -179,7 +179,6 @@ body {
 }
 
 .landing-page {
-  /* background-color: #9a9999; */
   width: 100%;
   height: min(100vh);
   margin: auto;
@@ -231,6 +230,11 @@ body {
   font-size: 0.875rem;
 }
 
+img {
+  width: 18px;
+  height: 18px;
+}
+
 /* footer styling here */
 #footer-wrapper {
   width: 100%;
@@ -272,9 +276,13 @@ h5 .footer-art-design {
   padding: 0.5rem;
   border: 1px solid #fff;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon:hover {
+  background-color: #9d9e9d;
 }
