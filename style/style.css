@@ -180,7 +180,7 @@ body {
 
 .landing-page {
   /* background-color: #9a9999; */
-  width: 90%;
+  width: 100%;
   height: min(100vh);
   margin: auto;
   display: flex;
@@ -192,15 +192,21 @@ body {
   text-align: center;
 }
 
-#search-box {
-  padding: 0.5em;
+#search-box,
+.cta {
+  padding: 0.3em;
   background-color: #fff;
-  border: 1px solid #828181;
+  border: none;
 }
 
 .form-field {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0.4em;
+  width: 40vw;
+  border-radius: 1.5rem;
+  background-color: #fff;
   gap: 1rem;
 }
 
@@ -210,6 +216,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
   color: #fff;
   text-align: center;
+  padding: 1rem;
+}
+
+.content-wrapper span {
+  color: rgb(49, 49, 49);
+  font-family: "roboto", serif;
+}
+
+.material-symbols-outlined {
+  font-size: 0.875rem;
 }
