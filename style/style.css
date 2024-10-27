@@ -132,14 +132,16 @@
 header {
   width: 100%;
   height: 64px;
-  background-color: #333;
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4));
 }
 
 .menu-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1.4em;
+  margin: auto;
+  width: 75%;
 }
 
 ul {
@@ -148,15 +150,66 @@ ul {
   gap: 2rem;
 }
 
-.logo {
+.logo,
+.brand-name {
   color: #fff;
+  font-size: 1.5rem;
 }
 
 a {
   color: #fff;
   text-transform: uppercase;
   font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 0.4em 0.1em;
+  transition: opacity 0.5s ease;
+}
+
+.menu-bar a:hover {
+  opacity: 0.7;
 }
 
 /* Section landing page styles */
+body {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
 
+.landing-page {
+  /* background-color: #9a9999; */
+  width: 75%;
+  height: min(100vh);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
+    url(/images/banner-bg.jpg) center/ cover no-repeat fixed;
+  justify-content: stretch;
+  padding: 0.8rem 0 0.2rem 0;
+  text-align: center;
+}
+
+#search-box {
+  padding: 0.5em;
+  background-color: #fff;
+  border: 1px solid #828181;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
