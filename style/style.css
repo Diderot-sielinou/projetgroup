@@ -18,13 +18,13 @@
 }
 
 .text h2 {
-  font-family: Roboto, serif;
+  font-family: "Roboto sans-serif";
   font-size: 40px;
   font-weight: 700;
 }
 
 .text h3 {
-  font-family: Poppins;
+  font-family: "Poppins sans-serif";
   font-size: 15px;
   font-weight: 100;
 }
@@ -34,6 +34,7 @@
   padding: 10px 40px;
   display: flex;
   flex-wrap: wrap;
+
   /* flex-direction: row; */
   gap: 30px;
   justify-content: center;
@@ -59,7 +60,7 @@
 .span-absolu {
   position: absolute;
   font-size: 1rem;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
@@ -72,7 +73,7 @@
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: Poppins, "Franklin Gothic Medium", Arial, sans-serif;
+  font-family: "san-serif Franklin Gothic Medium", Arial;
 }
 
 .span1 {
@@ -119,7 +120,7 @@
 }
 
 .catherine-text h1 {
-  font-family: Roboto sans-serif;
+  font-family: "Roboto sans-serif";
   font-size: 50px;
 }
 
@@ -179,13 +180,13 @@ body {
 
 .main-heading span {
   color: #2e2d2d;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto sans-serif";
 }
 
 .content-wrapper p {
   padding: 1em 0;
   font-size: 1rem;
-  font-family: Roboto, sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   word-spacing: 1px;
 }
@@ -210,7 +211,7 @@ body {
   background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
     url(/images/banner-bg.jpg) center/ cover no-repeat fixed;
   justify-content: stretch;
-  padding: 0.8rem 0 0.2rem 0;
+  padding: 0.8rem 0 0 0.2rem;
   text-align: center;
 }
 
