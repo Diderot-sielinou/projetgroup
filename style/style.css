@@ -36,7 +36,6 @@
   padding: 10px 40px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 30px;
   justify-content: center;
   height: auto;
@@ -60,7 +59,7 @@
 
 .span-absolu {
   position: absolute;
-  font-size: 150x;
+  font-size: 15px;
   font-family: "poppins";
   font-weight: 500;
 }
@@ -74,8 +73,7 @@
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "serif", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  font-family: "roboto", serif;
 }
 
 .span1 {
@@ -122,12 +120,12 @@
 }
 
 .catherine-text h1 {
-  font-family: "Roboto";
+  font-family: "roboto", serif;
   font-size: 50px;
 }
 
 .catherine-p1 {
-  font-family: "Poppins";
+  font-family: "poppins";
 }
 
 /* header styling */
@@ -181,13 +179,11 @@ body {
 
 .main-heading span {
   color: #2e2d2d;
-  font-family: "Roboto";
 }
 
 .content-wrapper p {
   padding: 1em 0;
   font-size: 1rem;
-  font-family: "Poppins";
   font-weight: 300;
   word-spacing: 1px;
 }
@@ -203,14 +199,13 @@ body {
 }
 
 .landing-page {
-  /* background-color: #9a9999; */
   width: 100%;
   height: min(100vh);
   margin: auto;
   display: flex;
   flex-direction: column;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/banner-bg.jpg) center/ cover no-repeat fixed;
+    url("/images/banner-bg.jpg") center/ cover no-repeat fixed;
   justify-content: stretch;
   padding: 0.8rem 0 0 0.2rem;
   text-align: center;
