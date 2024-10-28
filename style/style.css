@@ -1,41 +1,27 @@
-<<<<<<< HEAD
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
- background-color: white;
- display: flex;
- justify-items: center;
- align-items: center;
- /* flex-direction: column; */
-}
-
-
-.main-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .img-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img {
-    width: 30vw;
-    height: 70vh;
+  width: 30vw;
+  height: 70vh;
 }
-
-=======
-
-
 
 .recentart {
   margin: 30px auto;
@@ -48,8 +34,8 @@ body{
   padding-bottom: 40px;
 }
 
-.text h1{
-  font-family: "roboto",serif;
+.text h1 {
+  font-family: "roboto", serif;
   font-size: 40px;
   font-weight: 700;
 }
@@ -72,7 +58,7 @@ body{
 }
 
 .container {
-  width: calc(90%/3);
+  width: calc(90% / 3);
   height: auto;
 }
 
@@ -103,7 +89,8 @@ body{
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "serif",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "serif", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .span1 {
@@ -129,8 +116,9 @@ body{
   padding: 10px 20px;
 }
 
-.catherine-img ,.catherine-text {
-  width: calc(100%/2);
+.catherine-img,
+.catherine-text {
+  width: calc(100% / 2);
   height: auto;
   padding: 10px 10px;
 }
@@ -156,4 +144,3 @@ body{
 .catherine-p1 {
   font-family: "Poppins";
 }
->>>>>>> 514f045c38ed492a70a4e8e0f2fc708d479fca4f
