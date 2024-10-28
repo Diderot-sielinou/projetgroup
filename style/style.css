@@ -20,13 +20,13 @@
 }
 
 .text h1 {
-  font-family: "roboto", serif;
+  font-family: "Roboto", serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .text h3 {
-  font-family: "poppins", serif;
+  font-family: "Poppins", serif;
   font-size: 15px;
   font-weight: 100;
 }
@@ -60,7 +60,7 @@
 .span-absolu {
   position: absolute;
   font-size: 15px;
-  font-family: "poppins", serif;
+  font-family: "Poppins", serif;
   font-weight: 500;
 }
 
@@ -73,7 +73,7 @@
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "roboto", serif;
+  font-family: "Roboto", serif;
 }
 
 .span1 {
@@ -120,12 +120,12 @@
 }
 
 .catherine-text h1 {
-  font-family: "roboto", serif;
+  font-family: "Roboto", serif;
   font-size: 50px;
 }
 
 .catherine-p1 {
-  font-family: "poppins";
+  font-family: "Poppins", serif;
 }
 
 /* header styling */
@@ -253,7 +253,7 @@ h5 .footer-art-design {
   color: #fff;
   font-weight: medium;
   letter-spacing: 1px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", serif;
 }
 
 .footer-wrapper,
