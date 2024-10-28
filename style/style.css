@@ -1,3 +1,5 @@
+/* star style */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,14 +36,14 @@
   padding-bottom: 40px;
 }
 
-.text h1 {
-  font-family: "roboto", sans-serif;
+.text h1{
+  font-family: "roboto",serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .text h3 {
-  font-family: "poppins";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   font-weight: 100;
 }
@@ -51,7 +53,6 @@
   padding: 10px 40px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 30px;
   justify-content: center;
   height: auto;
@@ -75,9 +76,9 @@
 
 .span-absolu {
   position: absolute;
-  font-size: 150x;
-  font-family: "poppins";
-  font-weight: 500;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: medium;
 }
 
 .recent-text {
@@ -89,8 +90,7 @@
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "serif", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  font-family: "serif",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .span1 {
@@ -120,7 +120,7 @@
 .catherine-text {
   width: calc(100% / 2);
   height: auto;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 .catherine-text {
@@ -137,7 +137,7 @@
 }
 
 .catherine-text h1 {
-  font-family: "Roboto";
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 50px;
 }
 
