@@ -20,13 +20,12 @@
 }
 
 .text h1 {
-  font-family: Roboto ,serif;
+  font-family: Roboto, serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .text h3 {
-  font-family: Poppins;
   font-size: 15px;
   font-weight: 100;
 }
@@ -60,7 +59,7 @@
 .span-absolu {
   position: absolute;
   font-size: 15px;
-  font-family: Poppins ,Arial ,Helvetica ,sans-serif;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 
@@ -119,22 +118,21 @@
 }
 
 .catherine-text h1 {
-  font-family: "Roboto",sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 50px;
 }
 
 .catherine-p1 {
-  font-family: "Poppins",sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
- /* star style to responsive */
+/* star style to responsive */
 
 @media (max-width: 768px) {
   .container-flex {
     width: 100%;
     padding: 10px 40px;
     display: flex;
-    flex-wrap: nowrap;
     flex-flow: column;
   }
 
@@ -158,7 +156,7 @@
   .recent-text p {
     font-size: 1.5rem;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
   }
 
   .catherine-container {
