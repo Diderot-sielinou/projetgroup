@@ -193,7 +193,6 @@ body {
 
 #search-box,
 .cta {
-  padding: 0.3em;
   background-color: #fff;
   border: none;
 }
@@ -202,9 +201,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.4em;
+  padding: 1em;
   width: 40vw;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   background-color: #fff;
   gap: 1rem;
 }
@@ -262,6 +261,9 @@ h5 .footer-art-design {
   justify-content: center;
   gap: 1rem;
   padding-top: 1rem;
+}
+input:focus {
+  border: none;
 }
 
 .footer-items {
