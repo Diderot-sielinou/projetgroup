@@ -203,7 +203,8 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#00000066, #00000066),
+  background:
+    linear-gradient(#0006, #0006),
     url("/images/banner-bg.jpg") center/ cover no-repeat fixed;
   justify-content: stretch;
   padding: 0.8rem 0 0 0.2rem;
@@ -252,7 +253,7 @@ h5 .footer-art-design {
   color: #fff;
   font-weight: medium;
   letter-spacing: 1px;
-  font-family: "Roboto", serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .footer-wrapper,
