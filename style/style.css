@@ -209,11 +209,8 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: #2c2a2a;
-  background-image: url(/images/banner-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/images/banner-bg.jpg) center/ cover no-repeat fixed;
   justify-content: stretch;
   padding: 0.8rem 0 0 0.2rem;
   text-align: center;
@@ -223,7 +220,7 @@ body {
 .cta {
   padding: 0.2em;
   background-color: #fff;
-  border: none;
+  border: #fff;
 }
 
 .form-field {
