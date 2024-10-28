@@ -1,3 +1,5 @@
+/* star style */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,14 +19,14 @@
   padding-bottom: 40px;
 }
 
-.text h1{
-  font-family: "roboto",serif;
+.text h1 {
+  font-family: "Roboto", serif;
   font-size: 40px;
   font-weight: 700;
 }
 
 .text h3 {
-  font-family: "poppins";
+  font-family: "Poppins";
   font-size: 15px;
   font-weight: 100;
 }
@@ -41,7 +43,7 @@
 }
 
 .container {
-  width: calc(90%/3);
+  width: calc(90% / 3);
   height: auto;
 }
 
@@ -59,7 +61,7 @@
 .span-absolu {
   position: absolute;
   font-size: 150x;
-  font-family: "poppins";
+  font-family: "Poppins";
   font-weight: 500;
 }
 
@@ -72,7 +74,8 @@
 .recent-text p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "serif",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "serif", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
 }
 
 .span1 {
@@ -98,8 +101,9 @@
   padding: 10px 20px;
 }
 
-.catherine-img ,.catherine-text {
-  width: calc(100%/2);
+.catherine-img,
+.catherine-text {
+  width: calc(100% / 2);
   height: auto;
   padding: 10px 10px;
 }
@@ -124,4 +128,59 @@
 
 .catherine-p1 {
   font-family: "Poppins";
+}
+ /* star style to responsive */
+@media (max-width: 1250px) {
+  .container-flex {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .text h1 {
+    font-family: "Roboto", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .text h4 {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+
+  .recent-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Poppins",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .catherine-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+
+  .catherine-img,
+  .catherine-text {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+  }
+
+  .catherine-text p {
+    font-size: 1.7rem;
+  }
 }
